@@ -40,6 +40,11 @@ Ionic ships with a useful development server which detects changes and transpile
 ionic serve
 ```
 
+If `ng error` do this:
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
 > _tip_: Do not use **ionic serve** in production. Instead, build Ionic into a build artifact for your desired platforms.
 > [Checkout the Ionic docs to learn more](https://ionicframework.com/docs/cli/commands/build)
 
