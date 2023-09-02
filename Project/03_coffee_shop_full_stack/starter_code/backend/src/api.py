@@ -1,6 +1,5 @@
-import os
-from flask import Flask, request, jsonify, abort
-from sqlalchemy import exc
+from os import abort
+from flask import Flask, request, jsonify
 import json
 from flask_cors import CORS
 
